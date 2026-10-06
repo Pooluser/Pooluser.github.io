@@ -1,0 +1,79 @@
+{
+  "Usuario": [
+    "empleado_id",
+    "nombre_usuario",
+    "password_hash",
+    "es_activo",
+    "es_bloqueado",
+    "fechahora_bloqueo",
+    "tipo_credencial_id",
+    "rol_id"
+  ],
+  "Permiso": [
+    "codigo_permiso",
+    "modulo",
+    "menu",
+    "submenu",
+    "nombre_permiso",
+    "descripcion",
+    "es_activo"
+  ],
+  "Sesion": [
+    "usuario_id",
+    "fechahora_inicio",
+    "fechahora_fin",
+    "es_activa",
+    "direccion_ip",
+    "nombre_host",
+    "motivo_cierre"
+  ],
+  "Usuario_Dispositivo": [
+    "usuario_id",
+    "dispositivo_id",
+    "es_autorizado",
+    "fechahora_asignacion",
+    "fechahora_revocacion"
+  ],
+  "Politica_Autenticacion": [
+    "codigo_politica",
+    "nombre_politica",
+    "valor_configurado",
+    "valor_maximo_permitido",
+    "es_activo",
+    "unidad_medicion_id",
+    "tipo_politica"
+  ],
+  "Control_Acceso": [
+    "usuario_id",
+    "nombre_dispositivo",
+    "nombre_programa",
+    "nombre_host",
+    "direccion_ip_referencia",
+    "es_activo",
+    "fechahora_registro",
+    "fechahora_modificacion"
+  ],
+  "Evento_Seguridad": [
+    "tipo_evidencia",
+    "usuario_id",
+    "descripcion",
+    "fechahora_registro",
+    "es_activo",
+    "tipo_incidente"
+  ],
+  "Respaldo_Restore": [
+    "empresa_id",
+    "politica_respaldo_id",
+    "tipo_respaldo",
+    "tipo_operacion",
+    "usuario_id",
+    "fechahora_inicio",
+    "fechahora_fin",
+    "nombre_db",
+    "archivo_url",
+    "tamano_archivo_bytes",
+    "resultado",
+    "estado",
+    "observacion"
+  ]
+}

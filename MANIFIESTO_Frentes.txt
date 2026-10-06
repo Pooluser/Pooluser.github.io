@@ -1,0 +1,145 @@
+DML Technology — Módulo de Seguridad — Front Library V3
+========================================================================
+Interfaces HTML: 63
+
+FUENTES
+- PDF: flujo, pantallas, composición e identidad visual teal/celeste/blanco.
+- Excel: entidades, atributos, relaciones, obligatoriedad y reglas de validación.
+
+MOTION
+- feedback inmediato en pointerdown
+- springs interrumpibles
+- stagger de entrada
+- tablas con entrada por fila
+- contadores y barras con física
+- modales con entrada/salida
+- hover lift sutil
+- prefers-reduced-motion
+
+ARCHIVOS
+01. P1.1_Inicio-Sesion_PDF-p01.html
+    1.1 | PDF p.1 + Usuario/Sesion | Inicio de sesión
+02. P1.2_Credenciales-Correctas_PDF-p01.html
+    1.2 | PDF p.1 + Usuario | Credenciales correctas
+03. P1.2_Credenciales-Incorrectas_PDF-p01.html
+    1.2 | PDF p.1 + Intento_Acceso | Credenciales incorrectas
+04. P1.3_Recuperacion-Identificar_PDF-p01.html
+    1.3 | PDF p.1 + Usuario | Recuperación de acceso
+05. P1.3_Verificacion-Identidad_PDF-p01.html
+    1.3 | PDF p.1 + Verificacion_2FA | Verificación de identidad
+06. P1.3_Cambiar-Contrasena_PDF-p02.html
+    1.3 | PDF p.2 + Usuario | Cambio de contraseña
+07. P1.4_Cuenta-Bloqueada_PDF-p05.html
+    1.4 | PDF p.5 + Usuario | Cuenta bloqueada
+08. P1.5_2FA-Metodo_PDF-p08.html
+    1.5 | PDF p.8 + Verificacion_2FA | Selección de método 2FA
+09. P1.5_2FA-Codigo_PDF-p09.html
+    1.5 | PDF p.9 + Verificacion_2FA | Ingreso de código 2FA
+10. P1.5_2FA-Exitoso_PDF-p09.html
+    1.5 | PDF p.9 + Verificacion_2FA | 2FA correcto
+11. P1.5_2FA-Fallido_PDF-p09.html
+    1.5 | PDF p.9 + Verificacion_2FA | 2FA incorrecto
+12. P2.1_Panel-Administracion_PDF-p11.html
+    2.1 | PDF p.11 + Excel | Panel de administración
+13. Usuarios_Lista_PDF-p55_Excel-Usuario.html
+    Usuarios | PDF p.55 + Excel | Lista de usuarios
+14. EX_Usuario_Registrar_Fuente-Excel.html
+    Excel · Usuario | Excel | Registrar usuario
+15. Usuarios_Editar_PDF-p55_Excel-Usuario.html
+    Usuarios | PDF p.55 + Excel | Editar usuario
+16. Usuarios_Bloquear-Desbloquear_Excel-Usuario.html
+    Usuarios | Excel | Bloquear/desbloquear usuario
+17. P06_Roles_Lista_PDF-p18.html
+    Proceso 06 | PDF p.18 + Excel | Gestión de roles
+18. P06_Rol-Nuevo_PDF-p20.html
+    Proceso 06 | PDF p.20 + Excel | Nuevo rol
+19. P06_Rol-Editar_PDF-p22.html
+    Proceso 06 | PDF p.22 + Excel | Editar rol
+20. P06_Rol-Desactivar_PDF-p24.html
+    Proceso 06 | PDF p.24 + Excel | Desactivar rol
+21. P07_Permisos_Lista_PDF-p26_Excel.html
+    Proceso 07 | PDF p.26 + Excel | Gestión de permisos
+22. P07_Permiso-Nuevo_PDF-p29_Excel.html
+    Proceso 07 | PDF p.29 + Excel | Nuevo permiso
+23. P07_Permiso-Editar_PDF-p32_Excel.html
+    Proceso 07 | PDF p.32 + Excel | Editar permiso
+24. P07_Permiso-Desactivar_PDF-p34.html
+    Proceso 07 | PDF p.34 + Excel | Desactivar permiso
+25. EX_Rol-Permiso_Asignacion_Fuente-Excel.html
+    Rol_Permiso | Excel | Asignación de permisos a roles
+26. P08_Roles-Usuario_PDF-p37.html
+    Proceso 08 | PDF p.37 + Excel | Asignación de roles a usuario
+27. P08_Confirmar-Asignacion_PDF-p39.html
+    Proceso 08 | PDF p.39 | Confirmar asignación de rol
+28. P08_Confirmar-Revocacion_PDF-p41.html
+    Proceso 08 | PDF p.41 | Confirmar revocación de rol
+29. EX_Area_Lista_Fuente-Excel.html
+    Area | Excel | Gestión de áreas
+30. EX_Area_Formulario_Fuente-Excel.html
+    Area | Excel | Formulario de área
+31. EX_Perfil_Lista_Fuente-Excel.html
+    Perfil | Excel | Gestión de perfiles
+32. EX_Perfil_Formulario_Fuente-Excel.html
+    Perfil | Excel | Formulario de perfil
+33. EX_Area-Perfil-Rol_Asignacion_Fuente-Excel.html
+    Area_Perfil | Excel | Asignación área-perfil-rol
+34. EX_Empresa_Lista_Fuente-Excel.html
+    Empresa | Excel | Gestión de empresas
+35. EX_Empresa_Formulario_Fuente-Excel.html
+    Empresa | Excel | Formulario de empresa
+36. EX_Sede_Lista_Fuente-Excel.html
+    Sede | Excel | Gestión de sedes
+37. EX_Sede_Formulario_Fuente-Excel.html
+    Sede | Excel | Formulario de sede
+38. EX_Tipo-Credencial_Lista_Fuente-Excel.html
+    Tipo_Credencial | Excel | Tipos de credencial
+39. EX_Tipo-Autenticacion_Lista_Fuente-Excel.html
+    Tipo_Autenticacion | Excel | Tipos de autenticación
+40. EX_Politica-Autenticacion_Lista_Fuente-Excel.html
+    Politica_Autenticacion | Excel | Políticas de autenticación
+41. EX_Politica-Autenticacion_Formulario_Fuente-Excel.html
+    Politica_Autenticacion | Excel | Formulario de política
+42. EX_Usuario-Politica-Auth_Asignacion_Fuente-Excel.html
+    Usuario_Politica_Autenticacion | Excel | Políticas de autenticación por usuario
+43. EX_Unidad-Medicion_Lista_Fuente-Excel.html
+    Unidad_Medicion | Excel | Unidades de medición
+44. P09_Modulos-Autorizados_PDF-p45.html
+    Proceso 09 | PDF p.45 + Excel | Módulos autorizados
+45. P09_Acceso-Restringido_PDF-p51.html
+    Proceso 09 | PDF p.51 | Acceso restringido
+46. P10_Operacion-No-Autorizada_PDF-p57.html
+    Proceso 10 | PDF p.57 + Excel | Operación no autorizada
+47. EX_Control-Acceso_Lista_Fuente-Excel.html
+    Control_Acceso | Excel | Control de acceso
+48. EX_Sesion_Lista_Fuente-Excel.html
+    Sesion | Excel | Gestión de sesiones
+49. EX_Sesion_Detalle_Fuente-Excel.html
+    Sesion | Excel | Detalle de sesión
+50. P11_Cierre-Sesion_PDF-p61_Excel.html
+    Proceso 11 | PDF p.61 + Excel | Cierre de sesión
+51. EX_Usuario-Dispositivo_Lista_Fuente-Excel.html
+    Usuario_Dispositivo | Excel | Dispositivos autorizados
+52. EX_Usuario-Dispositivo_Revocar_Fuente-Excel.html
+    Usuario_Dispositivo | Excel | Revocar dispositivo
+53. P12_Intentos-Acceso_PDF-p73_Excel.html
+    Proceso 12 | PDF p.73 + Excel | Intentos de acceso
+54. P13_Auditoria-Actividades_PDF-p77_Excel.html
+    Proceso 13 | PDF p.77 + Excel | Auditoría de actividades
+55. P14_Modificacion-Usuario_PDF-p81.html
+    Proceso 14 | PDF p.81 + Excel | Modificación auditada
+56. P14_Usuario-Actualizado_PDF-p82.html
+    Proceso 14 | PDF p.82 | Usuario actualizado
+57. P14_Registro-Automatico_PDF-p82.html
+    Proceso 14 | PDF p.82 + Excel | Registro automático
+58. EX_Evento-Seguridad_Lista_Fuente-Excel.html
+    Evento_Seguridad | Excel | Eventos de seguridad
+59. EX_Evento-Seguridad_Detalle_Fuente-Excel.html
+    Evento_Seguridad | Excel | Detalle de evento
+60. EX_Politica-Respaldo_Lista_Fuente-Excel.html
+    Politica_Respaldo | Excel | Políticas de respaldo
+61. EX_Politica-Respaldo_Formulario_Fuente-Excel.html
+    Politica_Respaldo | Excel | Formulario de respaldo
+62. EX_Backup-Restore_Lista_Fuente-Excel.html
+    Respaldo_Restore | Excel | Historial backup/restore
+63. EX_Backup-Restore_Detalle_Fuente-Excel.html
+    Respaldo_Restore | Excel | Detalle backup/restore
